@@ -1,0 +1,375 @@
+.face-text {
+  height: 122px;
+  width: 203px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #fff;
+  margin-top: 25px;
+}
+.flex-display {
+  display: flex;
+}
+.face-image {
+  height: 213.64297485351562px;
+  width: 152px;
+  border-radius: 0px;
+  margin-left: auto;
+}
+
+.indexleadtext {
+  min-height: 33px;
+  min-width: 249px;
+  height: fit-content;
+  width: auto;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 700px;
+  line-height: 33px;
+  letter-spacing: 0.005em;
+  text-align: left;
+  color: #151557f2;
+  text-align: center;
+}
+.indflex {
+  display: flex;
+  width: fit-content;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.index-card {
+  height: 229.0142059326172px;
+  width: 292px;
+  border-radius: 25.877309799194336px;
+  background: #ffffff;
+  padding: 30px;
+ justify-self: center;
+ align-self: center;
+  margin-top: 25px;
+  box-shadow: 0px 5.482604503631592px 21.93102264404297px 0px #31232059;
+}
+.p2picon {
+  height: 63.38999938964844px;
+  width: 63.209999084472656px;
+  margin-bottom: 12px;
+  border-radius: 6.742536544799805px;
+}
+.card-titles {
+  height: 25.529451370239258px;
+  width: 205.89744567871094px;
+  color: #151557;
+  font-family: Poppins;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.card-text {
+  height: 69.0796890258789px;
+  width: 239.5897216796875px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.abtbtn {
+  height: 49.090911865234375px;
+  width: 162px;
+  border-radius: 17.18181800842285px;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  background-color: #151557;
+  color: #ffffff;
+  padding: 15px;
+}
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 640px) {
+  .abtbtn {
+    height: 49.090911865234375px;
+    width: 162px;
+    border-radius: 17.18181800842285px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: #151557;
+    color: #ffffff;
+    padding: 15px;
+  }
+  .card-text {
+    height: 69.0796890258789px;
+    width: 239.5897216796875px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+  .card-text {
+    height: 69.0796890258789px;
+    width: 239.5897216796875px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+  .p2picon {
+    height: 63.38999938964844px;
+    width: 63.209999084472656px;
+    margin-bottom: 12px;
+    border-radius: 6.742536544799805px;
+  }
+  .index-card {
+    height: 249.0142059326172px;
+    width: 312px;
+    border-radius: 25.877309799194336px;
+    background: #ffffff;
+    margin-top: 25px;
+    box-shadow: 0px 5.482604503631592px 21.93102264404297px 0px #31232059;
+  }
+  .indflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .indexleadtext {
+    min-height: 38px;
+    min-width: 254px;
+    height: fit-content;
+    width: auto;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 700px;
+    line-height: 33px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    color: #151557f2;
+    text-align: center;
+  }
+  .face-image {
+    height: 216.64297485351562px;
+    width: 158px;
+    border-radius: 0px;
+    margin-left: auto;
+  }
+  .face-text {
+    height: 129px;
+    width: 214px;
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 700px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #fff;
+    margin-top: 25px;
+  }
+  .flex-display {
+    display: flex;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media screen and  (max-width: 1007px) and  (min-width: 641px) {
+  .abtbtn {
+    height: 43.63636016845703px;
+    width: 144px;
+   padding: 15px;
+    border-radius: 15.272727012634277px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: #151557;
+    color: #ffffff;
+  }
+  .card-text {
+    height: 51.27838897705078px;
+    width: 182.3516387939453px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+  .card-titles {
+    height: 18.950706481933594px;
+    width: 156.7084503173828px;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #151557;
+  }
+  .p2picon {
+    height: 48.67068862915039px;
+    width: 49.90281295776367px;
+    border-radius: 10.689807891845703px;
+  }
+  .index-card {
+    height: 169.99899291992188px;
+    width: 222.24107360839844px;
+    border-radius: 19.208927154541016px;
+    background: #ffffff;
+    margin-right: 25px;
+    padding: 20px;
+    box-shadow: 0px 5.482604503631592px 21.93102264404297px 0px #31232059;
+  }
+  .indflex {
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .indexleadtext {
+    color: #151557f2;
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 700px;
+    line-height: 53px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    text-align: center;
+  }
+  .face-image {
+    height: 426.2720947265625px;
+    width: 303.2786560058594px;
+    border-radius: 0px;
+    margin-left: auto;
+  }
+  .face-text {
+    height: 225px;
+    width: 401px;
+    font-family: Poppins;
+    font-size: 47px;
+    font-weight: 700px;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #fff;
+    margin-top: 25px;
+  }
+  .flex-display {
+    display: flex;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 1008px  ) {
+  .abtbtn {
+    padding-top: 30px;
+    height: 100px;
+    width: 330px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 35px;
+    background-color: #151557;
+    color: #ffffff;
+  }
+  .card-text {
+    height: 106.78032684326172px;
+    width: 370.3471984863281px;
+    left: 67.36065673828125px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #151557;
+  }
+  .card-titles {
+    height: 39.46229553222656px;
+    width: 318.2671203613281px;
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #151557;
+  }
+  .p2picon {
+    height: 86px;
+    width: 98px;
+    border-radius: 10px;
+  }
+  .index-card {
+    height: 354px;
+    width: 451.36065673828125px;
+    margin-right: 25px;
+    border-radius: 40px;
+    background: #ffffff;
+    margin-top: 25px;
+    box-shadow: 0px 5.482604503631592px 21.93102264404297px 0px #31232059;
+  }
+  .indflex {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .indexleadtext {
+    color: #151557f2;
+    font-family: Poppins;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 98px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    text-align: center;
+  }
+  .face-image {
+    height: 811px;
+    width: 577px;
+    border-radius: 0px;
+    margin-left: auto;
+  }
+  .face-text {
+    height: 429px;
+    width: 747px;
+    font-family: Poppins;
+    font-size: 87px;
+    font-weight: 700px;
+    line-height: 131px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-top: 25px;
+  }
+  .flex-display {
+    display: flex;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

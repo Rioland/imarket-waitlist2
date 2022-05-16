@@ -1,0 +1,403 @@
+.abfisttopic {
+  height: 38px;
+  width: fit-content;
+
+  border-radius: nullpx;
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #151557f2;
+  margin-left: auto;
+  margin-right: auto;
+  color: #151557;
+}
+.abflex1 {
+  display: flex;
+  flex-direction: column;
+  justify-self: start;
+  padding: 10px;
+}
+.Tleft {
+}
+.abFimage {
+}
+.smallscreentext {
+  display: none;
+}
+.smallscreentext2 {
+  display: none;
+}
+.fft {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+.fftFlex {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.fit2 {
+  display: none;
+}
+.fit3 {
+  display: none;
+}
+.p2ptxt {
+  height: 108px;
+  width: 319px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #151557;
+}
+.p2pimg {
+  height: 270px;
+  width: 270px;
+}
+.p2ph {
+  /* height: 38px;
+  width: 260px; */
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 700px;
+  line-height: 38px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #151557;
+}
+/* .drow {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+} */
+/* mobile */
+@media screen and (max-width: 640px) {
+
+  .p2ptxt {
+    height: auto;
+    width: auto;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #151557;
+  }
+  .p2pimg {
+    height: 270px;
+    width: 270px;
+  }
+  .p2ph {
+    /* height: 38px;
+    width: 260px; */
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 700px;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #151557;
+  }
+  .fit3 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    text-align: justified;
+    color: #ffffff;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    height: 54px;
+    width: 363px;
+    padding: 10px;
+    display: block;
+  }
+  .fit2 {
+    height: 211px;
+    width: 239px;
+    left: 125px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    text-align: justified;
+    color: #ffffff;
+    display: block;
+  }
+  .fit {
+    display: none;
+  }
+  .looking {
+    height: 297px;
+    width: 190.41114807128906px;
+  }
+  .smallscreentext2 {
+    height: 76px;
+    width: auto;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #151557;
+    display: block;
+    margin-left: auto;
+    padding: 10px;
+    margin-right: auto;
+  }
+  .smallscreentext {
+    display: block;
+    height: auto;
+    width: 188px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #151557;
+  }
+  .abFimage {
+    height: 176.5454559326172px;
+    width: 161.8333282470703px;
+    border-radius: 0px;
+    margin-left: auto;
+  }
+  .abflex1 {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+  }
+
+  .Tleft {
+    display: none;
+  }
+  .abfisttopic {
+    height: 38px;
+    width: fit-content;
+    text-align: center;
+    border-radius: nullpx;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #151557f2;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .fft {
+    height: 66.13953399658203px;
+    width: 292.37384033203125px;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+  }
+}
+
+/* medum */
+
+@media screen and (max-width: 1007px) and (min-width: 641px) {
+ 
+  .p2pimg {
+    height: 323px;
+    width: 323px;
+  }
+  .p2ph {
+    height: 68px;
+    width: 395px;
+    font-family: Poppins;
+    font-size: 47px;
+    font-weight: 700px;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #151557;
+  }
+  .fit {
+    margin-top: 14px;
+    height: 298px;
+    width: 464px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    text-align: justified;
+    color: #ffffff;
+  }
+  .looking {
+    height: 418.6940612792969px;
+    width: 268.4309997558594px;
+  }
+  .fft {
+    height: 121px;
+    width: 464px;
+    font-family: Poppins;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #ffffff;
+  }
+  .abFimage {
+    height: 286.6360778808594px;
+    width: 262.7497253417969px;
+    border-radius: 0px;
+    margin-left: auto;
+  }
+  .abflex1 {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+  }
+  .Tleft {
+    height: 239px;
+    width: 484px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #151557;
+  }
+  .abfisttopic {
+    height: 71px;
+    width: fit-content;
+    font-family: Poppins;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #151557f2;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .p2ptxt {
+    height: 328px;
+    width: 407px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #151557;
+  }
+}
+
+/* big */
+@media screen and (min-width: 1008px) {
+ 
+  .p2ptxt {
+    height: 716px;
+    width: 732px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #151557;
+  }
+  .p2pimg {
+    height: 698px;
+    width: 698px;
+  }
+  .p2ph {
+    height: 131px;
+    width: 732px;
+    font-family: Poppins;
+    font-size: 87px;
+    font-weight: 700;
+    line-height: 131px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+    color: #151557;
+  }
+  .fit {
+    height: 647px;
+    padding-top: 14px;
+    width: 931px;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0.02em;
+    text-align: justified;
+    color: #ffffff;
+  }
+  .looking {
+    height: 861px;
+    width: 552px;
+  }
+  .abflex1 {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+  }
+  .abFimage {
+    height: 597.8181762695312px;
+    width: 528px;
+    margin-left: auto;
+  }
+  .Tleft {
+    height: 504px;
+    width: 958px;
+    border-radius: nullpx;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 400px;
+    line-height: 63px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #151557;
+  }
+  .abfisttopic {
+    height: 131px;
+    width: fit-content;
+    text-align: center;
+    border-radius: nullpx;
+    font-family: Poppins;
+    font-size: 87px;
+    font-weight: 700;
+    line-height: 131px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #151557f2;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .fft {
+    height: 214px;
+    width: 946px;
+    font-family: Poppins;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 128px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #ffffff;
+  }
+}
