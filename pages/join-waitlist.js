@@ -63,7 +63,7 @@ const Section2 = (props) => {
           </div>
           <div type="submit" className="otpbtn ms-auto me-auto animate__animated animate__fadeInRight animate__slower animate__delay-1s">
             <span
-              className="getNottext pt-5"
+              className="getNottext "
               onClick={(e) => {
                 if (email && name) {
                   axios({

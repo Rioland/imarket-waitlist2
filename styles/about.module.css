@@ -87,7 +87,9 @@
   flex-direction: column;
   justify-content: space-between;
 }
-
+.knowBtn {
+  cursor: pointer;
+}
 /* mobile */
 @media screen and (max-width: 640px) {
   .knowBtn {
@@ -326,6 +328,12 @@
     color: #151557;
     margin-bottom: 35px;
     padding-top: 15px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
   }
   .tp {
     height: 61.907997131347656px;
@@ -500,19 +508,25 @@ text-align: left; */
 
 /* big */
 @media screen and (min-width: 1008px) {
-  .knowBtn{
+  .knowBtn {
     height: 107.2727279663086px;
     width: 354px;
     border-radius: 35px;
-    background: #FFFFFF;
+    background: #ffffff;
     font-family: Poppins;
     font-size: 30px;
     font-weight: 600;
     line-height: 34px;
     letter-spacing: 0em;
     text-align: center;
-    color: #151557F2;
-    padding-top: 30px;
+    color: #151557f2;
+    font-family: Poppins;
+    padding-top: 15px;
+    font-size: 24px;
+    font-weight: 500px;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
   }
   .tp {
     height: 134px;

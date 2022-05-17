@@ -1,10 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import { Fragment } from "react";
-import Appbar from "../components/Appbar";
-import Footer from "../components/Footer";
 import style from "../styles/about.module.css";
 
+import { useRouter } from "next/router";
 
 const Section4=()=>{
     <section className="sec1">
@@ -50,6 +49,7 @@ const Section4=()=>{
 
 
 const About = () => {
+  const router = useRouter();
   return (
     <Fragment>
      
@@ -161,14 +161,14 @@ const About = () => {
         <div className=" p-3 pb-4">
           <div className={style.ablbg}>
             <div className="d-flex ">
-              <div className="container animate__animated animate__fadeIn animate__slower pt-3 ">
+              <div className="container animate__animated animate__fadeIn animate__slower pt-4 ps-4 ">
                <p className={style.gh}>There’s more where this came from!</p>
                <p className={style.tp} >
                We are holding back some pretty amazing features for when we launch. We can't wait to show them off!
                </p>
 
               </div>
-              <div className="   pt-3">
+              <div className=" pt-5 pe-4">
                 <img
                   src="/images/business-3d-sale1.png"
                   alt="sale1"
@@ -176,8 +176,8 @@ const About = () => {
                 />
               </div>
             </div>
-            <div className={style.knowBtn +" ms-auto me-auto"}>
-            Get in the Know
+            <div  onClick={()=>router.push("/")} className={style.knowBtn +" ms-auto me-auto"}>
+                Get in the Know
             </div>
             <br/>
             <br/>

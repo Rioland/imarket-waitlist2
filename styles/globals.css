@@ -19,7 +19,7 @@ body {
 }
 .sec1 {
   height: fit-content;
-  min-height: 500px;
+  min-height: 100px;
   background-color: #ffffff;
 }
 .text-white {
@@ -28,9 +28,9 @@ body {
 .text-blue {
   color: #151557;
 }
-.white-bg{
+.white-bg {
   background-color: #ffffff;
-  height: auto ;
+  height: auto;
   /* min-height: 300px; */
   width: 100%;
 }
@@ -47,7 +47,7 @@ body {
 // No media query for `xs` since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up) */
-.ctext{
+.ctext {
   font-family: Poppins;
   font-size: 38px;
   font-weight: 400;
@@ -57,7 +57,7 @@ body {
   margin-top: 25px;
   margin-bottom: 25px;
   margin-left: 15px;
-color: #fff;  
+  color: #fff;
 }
 .otpbtn {
   height: 72px;
@@ -70,7 +70,6 @@ color: #fff;
   line-height: 36px;
   letter-spacing: 0em;
   text-align: center;
-  padding-top: 20px;
   color: #ffffff;
 }
 .input {
@@ -79,7 +78,6 @@ color: #fff;
   background-color: transparent;
   margin-left: 30px;
   text-align: left;
-  padding-top: 30px;
 }
 .joinlist {
   color: #ffffff;
@@ -92,7 +90,6 @@ color: #fff;
 .curvinput {
   height: 74px;
   width: 375px;
-
   border-radius: 35px;
   background-color: #ffffff;
 }
@@ -118,9 +115,46 @@ color: #fff;
   text-align: left;
   padding: 10px;
   color: #ffffff;
-  
 }
+/* .getNottext {
+  margin-top: auto;
+} */
+/* mobile */
 @media screen and (max-width: 640px) {
+  .bussimage{
+    height: 251.22378540039062px;
+width: 265.1105651855469px;
+left: 61px;
+top: 287px;
+border-radius: 0px;
+
+  }
+  .input {
+    margin-top: 13px;
+  }
+  .otpbtn {
+    height: 41.485713958740234px;
+    width: 181.5px;
+
+    border-radius: 16.133333206176758px;
+    background: linear-gradient(98.31deg, #002d46 -1.46%, #5264f9 92.55%);
+    padding-top: 10px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+  }
+  .curvinput {
+    height: 54.61894226074219px;
+    width: 276px;
+    left: 55px;
+    top: 538px;
+    border-radius: 20.336843490600586px;
+    background: #ffffff;
+  }
 
   .logo {
     height: 43px;
@@ -144,8 +178,40 @@ color: #fff;
 }
 
 /* // Medium devices (tablets, 768px and up) */
-@media screen and  (max-width: 1007px) and  (min-width: 641px) {
+@media screen and (max-width: 1007px) and (min-width: 641px) {
+  .bussimage{
+    height: 287px;
+width: 287px;
+left: 450px;
+top: 120px;
+border-radius: 0px;
 
+  }
+  .input {
+    margin-top: 13px;
+  }
+  .otpbtn {
+    height: 42.00918960571289px;
+    width: 183.7902069091797px;
+    border-radius: 16.33690643310547px;
+    background: linear-gradient(98.31deg, #002d46 -1.46%, #5264f9 92.55%);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 12px;
+    color: #ffffff;
+  }
+  .curvinput {
+    height: 49.190208435058594px;
+    width: 248.56753540039062px;
+    left: 471px;
+    top: 397px;
+    border-radius: 18.315502166748047px;
+    background-color: #ffffff;
+  }
   .logo {
     height: 50.75847244262695px;
     width: 66.03092193603516px;
@@ -167,7 +233,39 @@ color: #fff;
 }
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 1008px  ) {
+@media (min-width: 1008px) {
+  .bussimage{
+    height: 550px;
+width: 550px;
+left: 892px;
+top: 131px;
+border-radius: 0px;
+
+  }
+  .input {
+    margin-top: 29px;
+  }
+  .otpbtn {
+    height: 72px;
+    width: 315px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 28px;
+    background: linear-gradient(98.31deg, #002d46 -1.46%, #5264f9 92.55%);
+  }
+  .curvinput {
+    height: 94px;
+    width: 475px;
+    left: 962px;
+    top: 574px;
+    border-radius: 35px;
+    background-color: #ffffff;
+  }
   .logo {
     height: 113px;
     width: 147px;
