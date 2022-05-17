@@ -24,7 +24,7 @@ class MyDocument extends Document {
           />
           <link rel="icon" href="/images/logo1.png" />
         </Head>
-        <body >
+        <body className="mybgImage" >
           <Main />
           <NextScript />
         </body>
