@@ -159,20 +159,20 @@ const About = () => {
       {/* sect 6 */}
       <section className="sec1">
         <div className=" p-3 pb-4">
-          <div className={style.ablbg+ " container "}>
-            <div className="d-flex flex-direction-column">
-              <div className="container animate__animated animate__fadeIn animate__slower ">
+          <div className={style.ablbg}>
+            <div className="d-flex ">
+              <div className="container animate__animated animate__fadeIn animate__slower pt-3 ">
                <p className={style.gh}>There’s more where this came from!</p>
                <p className={style.tp} >
                We are holding back some pretty amazing features for when we launch. We can't wait to show them off!
                </p>
 
               </div>
-              <div className=" img-fluid animate__animated animate__fadeIn animate__slower ms-2">
+              <div className="   pt-3">
                 <img
                   src="/images/business-3d-sale1.png"
                   alt="sale1"
-                  className={style.sale1Image+" container"}
+                  className={style.sale1Image+" img-fluid animate__animated animate__fadeIn animate__slower me-3"}
                 />
               </div>
             </div>
