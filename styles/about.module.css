@@ -315,7 +315,7 @@
 @media screen and (max-width: 1007px) and (min-width: 641px) {
   .knowBtn {
     height: 40.212120056152344px;
-    width: 132.6999969482422px;
+    width: 140.6999969482422px;
     border-radius: 13.12005615234375px;
     background: #ffffff;
     font-family: Poppins;
@@ -327,7 +327,8 @@
     text-align: center;
     color: #151557;
     margin-bottom: 35px;
-    padding-top: 15px;
+    padding-top: 10px;
+    
     font-family: Poppins;
     font-size: 16px;
     font-weight: 500;
@@ -521,7 +522,7 @@ text-align: left; */
     text-align: center;
     color: #151557f2;
     font-family: Poppins;
-    padding-top: 15px;
+    padding-top: 40px;
     font-size: 24px;
     font-weight: 500px;
     line-height: 36px;

@@ -158,10 +158,10 @@ const About = () => {
       </div>
       {/* sect 6 */}
       <section className="sec1">
-        <div className=" p-3 pb-4">
+        <div className=" p-3 pb-4 container">
           <div className={style.ablbg}>
-            <div className="d-flex ">
-              <div className="container animate__animated animate__fadeIn animate__slower pt-4 ps-4 ">
+            <div className="d-flex container ">
+              <div className="animate__animated animate__fadeIn animate__slower pt-4 ps-4 ">
                <p className={style.gh}>There’s more where this came from!</p>
                <p className={style.tp} >
                We are holding back some pretty amazing features for when we launch. We can't wait to show them off!
