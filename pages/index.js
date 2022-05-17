@@ -1,9 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import Head from "next/head";
-import Footer from "../components/Footer"
+
 import Buttonone from "../components/Buttons";
 import { useRouter } from "next/router";
-import Appbar from "../components/Appbar";
+
 
 export default function Home() {
   const router = useRouter();
@@ -20,11 +20,11 @@ export default function Home() {
         {/* screen1 */}
         <div className=" container flex-display">
           <div className=" w-100">
-            <p className=" face-text">
+            <p className=" face-text animate__animated animate__fadeInLeft">
               Build your Crypto Portfolio with iMarket
             </p>
           </div>
-          <div className=" w-100 ps-auto">
+          <div className=" animate__animated animate__fadeInTopRight w-100 ps-auto">
             <img
               src="/images/business-3d-355 1.png"
               alt="business"
