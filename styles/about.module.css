@@ -78,9 +78,105 @@
   flex-direction: row;
   height: auto;
 } */
+.ablbg {
+  background: linear-gradient(99.51deg, #195198 24.41%, #240300 100%);
+  border-radius: 20px;
+}
+.rowflex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 /* mobile */
 @media screen and (max-width: 640px) {
+  .knowBtn {
+    height: 27.57575798034668px;
+    width: 91px;
+    border-radius: 8.997175216674805px;
+    background: #ffffff;
+    font-family: Poppins;
+    font-size: 9px;
+    font-weight: 600;
+    line-height: 9px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #151557;
+    margin-bottom: 35px;
+    padding-top: 15px;
+  }
+  .tp {
+    height: 81px;
+    width: 217px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #ffffff;
+  }
+  .rowflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .gh {
+    height: 44.643150329589844px;
+    width: 235.56277465820312px;
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-align: left;
 
+    color: #ffffff;
+  }
+  .sale1Image {
+    height: 119.63103485107422px;
+    width: 124px;
+    border-radius: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .tfimage {
+    height: 250.61660766601562px;
+    width: 177px;
+    border-radius: 0px;
+    margin-top: auto;
+  }
+  .tftl > h3 {
+    font-size: 26px;
+    font-weight: 400px;
+    height: fit-content;
+  }
+  .tftl {
+    min-height: 86px;
+    height: fit-content;
+    width: 241px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 200px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #ffffff;
+  }
+  .moveimage {
+    height: 250.61660766601562px;
+    width: 177px;
+  }
+  .move {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    height: 76px;
+    width: 341px;
+    color: #ffffff;
+  }
   .p2ptxt {
     height: auto;
     width: auto;
@@ -215,7 +311,103 @@
 /* medum */
 
 @media screen and (max-width: 1007px) and (min-width: 641px) {
- 
+  .knowBtn {
+    height: 40.212120056152344px;
+    width: 132.6999969482422px;
+    border-radius: 13.12005615234375px;
+    background: #ffffff;
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-align: center;
+    color: #151557;
+    margin-bottom: 35px;
+    padding-top: 15px;
+  }
+  .tp {
+    height: 61.907997131347656px;
+    width: 359.8979797363281px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #ffffff;
+  }
+  .rowflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .gh {
+    height: 72px;
+    width: 370px;
+    font-family: Poppins;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #ffffff;
+  }
+  .sale1Image {
+    height: 180.64198303222656px;
+    width: 200.97000122070312px;
+    border-radius: 0px;
+  }
+  .tfimage {
+    height: 399.2875061035156px;
+    width: 282px;
+    border-radius: 0px;
+  }
+  .tftl > h3 {
+    font-size: 32px;
+    font-weight: 700px;
+  }
+  .tftl {
+    /* height: 313px; */
+    height: fit-content;
+    width: 404px;
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 700px;
+    line-height: 49px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #ffffff;
+    /* font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0.02em;
+text-align: left;
+
+font-family: Poppins;
+font-size: 23px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-align: left; */
+  }
+  .moveimage {
+    height: 399.2875061035156px;
+    width: 282px;
+  }
+  .move {
+    font-family: Poppins;
+    font-size: 47px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    height: 142px;
+    width: 669px;
+    color: #ffffff;
+  }
   .p2pimg {
     height: 323px;
     width: 323px;
@@ -308,7 +500,89 @@
 
 /* big */
 @media screen and (min-width: 1008px) {
- 
+  .knowBtn{
+    height: 107.2727279663086px;
+    width: 354px;
+    border-radius: 35px;
+    background: #FFFFFF;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #151557F2;
+    padding-top: 30px;
+  }
+  .tp {
+    height: 134px;
+    width: 779px;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #ffffff;
+  }
+  .rowflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .gh {
+    height: 157.54922485351562px;
+    width: 892.2832641601562px;
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 700px;
+    line-height: 72px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+    color: #ffffff;
+  }
+  .sale1Image {
+    height: 391px;
+    width: 435px;
+    border-radius: 0px;
+  }
+  .tfimage {
+    height: 715px;
+    width: 504.9744567871094px;
+    border-radius: 0px;
+  }
+  .tftl > h3 {
+    font-weight: 700px;
+    font-size: 48px;
+  }
+  .tftl {
+    height: 651px;
+    width: 735px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 400px;
+    line-height: 70px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #ffffff;
+  }
+  .moveimage {
+    height: 715px;
+    width: 504.9744567871094px;
+  }
+  .move {
+    font-family: Poppins;
+    font-size: 87px;
+    font-weight: 700;
+    line-height: 131px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #ffffff;
+    height: 262px;
+    width: 1208px;
+    left: 133px;
+  }
   .p2ptxt {
     height: 716px;
     width: 732px;

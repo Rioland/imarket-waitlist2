@@ -1,6 +1,6 @@
 const Footer = () => {
     return (  <footer className=" container">
-    <div className="row">
+    <div className="row pt-3 pb-3">
       <div className="col-lg-6 col-md-6 col-sm-12">
         <p style={{
           color:"gray"
@@ -15,8 +15,8 @@ const Footer = () => {
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
+            width="26"
+            height="26"
             fill="gray"
             className="bi bi-instagram me-3"
             viewBox="0 0 16 16"
@@ -25,8 +25,8 @@ const Footer = () => {
           </svg>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
+            width="26"
+            height="26"
             fill="gray"
             className="bi bi-twitter me-3"
             viewBox="0 0 16 16"
@@ -35,8 +35,8 @@ const Footer = () => {
           </svg>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
+            width="26"
+            height="26"
             fill="gray"
             className="bi bi-facebook me-3"
             viewBox="0 0 16 16"
@@ -45,8 +45,8 @@ const Footer = () => {
           </svg>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
+            width="26"
+            height="26"
             fill="gray"
             className="bi bi-linkedin me-3"
             viewBox="0 0 16 16"

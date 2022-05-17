@@ -5,7 +5,7 @@ import React from "react";
 
 const Appbar = () => {
   return (
-    <nav className=" container pt-4 d-flex">
+    <nav className=" container pt-4 d-flex mt-2">
       <a
         className="logo text-blue animate__animated animate__fadeIn animate__slow animate__delay-2s"
         href="/"

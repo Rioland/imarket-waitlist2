@@ -3,12 +3,15 @@ import {useEffect} from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 import '../styles/globals.css'
 import '../styles/home.css'
+import Layout from '../components/Layout';
+
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap");
 }, []);
-  return <Component {...pageProps} />
+  return ( <Layout><Component {...pageProps} /></Layout>)
+ 
 }
 
 export default MyApp
