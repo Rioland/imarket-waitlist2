@@ -39,7 +39,7 @@ export default function Home() {
           {/*  */}
           <div className="container-fluid">
             <div className="indflex">
-              <div className="index-card">
+              <div className="index-card animate__animated animate__zoomIn">
                 <img
                   src="/images/IconP2P.png"
                   alt="IconP2P"
@@ -50,7 +50,7 @@ export default function Home() {
                   Trade crypto coins without delay from both buyer and seller
                 </p>
               </div>
-              <div className="index-card">
+              <div className="index-card animate__animated animate__fadeInLeft">
                 <img
                   src="/images/IconTicket.png"
                   alt="IconP2P"
@@ -61,7 +61,7 @@ export default function Home() {
                   Buy and Sell your event tickets with fiat or crypto
                 </p>
               </div>
-              <div className="index-card">
+              <div className="index-card animate__animated animate__fadeInTopRight">
                 <img
                   src="/images/IconWallet.png"
                   alt="IconP2P"
